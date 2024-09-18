@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragati Study Centre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            width: 50px;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://drive.google.com/uc?export=view&id=1l5P34hMr-w72AMnYekqh3sJPdPO2MHId" alt="Pragati Logo">
+    <h1>Pragati Study Centre</h1>
+    <p>Your Partner in Learning Success</p>
+</header>
+
+<nav>
+    <a onclick="scrollToSection('about')">About Us</a>
+    <a onclick="scrollToSection('services')">Services</a>
+    <a onclick="scrollToSection('contact')">Contact</a>
+    <a onclick="scrollToSection('testimonials')">Testimonials</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Pragati Study Centre, we believe in creating a learning environment that is fun, modern, and effective. We offer a wide range of resources including notes and lectures for students from Class 5 to 10 and college students. Our aim is to help students excel in their academic pursuits.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Interactive notes and study materials</li>
+        <li>Expert lectures using the latest technology</li>
+        <li>Personalized coaching for individual needs</li>
+        <li>Classes for students of Class 5th to 10th and college level</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: studycentrepragati@gmail.com</p>
+    <p>Phone: +91 86531 63656, +91 96149 79332</p>
+    <p>Location: Lalpul (Jharujote)</p>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Students Say</h2>
+    <p>"Pragati Study Centre has completely transformed my learning experience. The modern approach and friendly teachers made it so much easier!"</p>
+    <p>"I love the interactive notes and tech-savvy way of teaching."</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Pragati Study Centre. All Rights Reserved.</p>
+</footer>
+
+<script>
+    // Smooth scrolling function
+    function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
